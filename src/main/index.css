@@ -9,7 +9,7 @@
   border-bottom: 1px solid grey;
 }
 #body {
-  height: 100%; /*부모의 높이와 동일하게*/
+  height: 100vh; /*부모의 높이와 동일하게*/
   width: 1024px;
   margin: 0 auto; /*자식이 부모를 기준으로 가운데 정렬*/
   padding-bottom: 24px;
@@ -79,4 +79,9 @@
 }
 .product-avatar {
   width: 24;
+}
+
+.product-link {
+  color: inherit;
+  text-decoration: none; /*해당 텍스트의 밑줄 사라짐.*/
 }
